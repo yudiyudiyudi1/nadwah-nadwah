@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Untuk Nadwah</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #fce4ec;
+      padding-top: 100px;
+    }
+    button {
+      font-size: 20px;
+      padding: 10px 20px;
+      background-color: #ec407a;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    button:hover {
+      background-color: #d81b60;
+    }
+    #message {
+      margin-top: 40px;
+      font-size: 24px;
+      color: #880e4f;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hai Nadwah 👋</h1>
+  <p>Aku punya sesuatu buat kamu...</p>
+  <button onclick="showMessage()">Klik di sini!</button>
+
+  <div id="message"></div>
+
+  <script>
+    function showMessage() {
+      document.getElementById("message").innerHTML = "❤️ Kamu luar biasa, tetap semangat ya! ❤️";
+    }
+  </script>
+</body>
+</html>
